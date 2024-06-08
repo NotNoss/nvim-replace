@@ -6,23 +6,23 @@ local State = { enabled = false }
 ---
 ---@private
 function State:init()
-    self.enabled = false
+  self.enabled = false
 end
 
 ---Saves the state in the global _G.NvimReplace.state object.
 ---
 ---@private
 function State:save()
-    D.log("state.save", "saving state globally to _G.NvimReplace.state")
+  D.log("state.save", "saving state globally to _G.NvimReplace.state")
 
-    _G.NvimReplace.state = self
+  _G.NvimReplace.state = self
 end
 
 ---Whether the NvimReplace is enabled or not.
 ---
 ---@private
 function State:setEnabled()
-    self.enabled = true
+  self.enabled = true
 end
 
 ---Whether the NvimReplace is enabled or not.
@@ -30,7 +30,7 @@ end
 ---@return boolean: the `enabled` state value.
 ---@private
 function State:getEnabled()
-    return self.enabled
+  return self.enabled
 end
 
 return State

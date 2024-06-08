@@ -2,10 +2,6 @@
   <h1 align="center">nvim-replace</h2>
 </p>
 
-<p align="center">
-    > A catch phrase that describes your plugin.
-</p>
-
 <div align="center">
     > Drag your video (<10MB) here to host it for free on GitHub.
 </div>
@@ -20,11 +16,10 @@ _[GIF version of the showcase video for mobile users](SHOWCASE_GIF_LINK)_
 
 ## ⚡️ Features
 
-> Write short sentences describing your plugin features
-
-- FEATURE 1
-- FEATURE ..
-- FEATURE N
+- Search
+- Search in File
+- Replace
+- Replace in File
 
 ## 📋 Installation
 
@@ -122,11 +117,3 @@ require("nvim-replace").setup({
 ## ⌨ Contributing
 
 PRs and issues are always welcome. Make sure to provide as much context as possible when opening one.
-
-## 🗞 Wiki
-
-You can find guides and showcase of the plugin on [the Wiki](https://github.com/NotNoss/nvim-replace/wiki)
-
-## 🎭 Motivations
-
-> If alternatives of your plugin exist, you can provide some pros/cons of using yours over the others.
