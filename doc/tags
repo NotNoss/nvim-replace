@@ -1,0 +1,5 @@
+NvimReplace.disable()	my-awesome-plugin.txt	/*NvimReplace.disable()*
+NvimReplace.enable()	my-awesome-plugin.txt	/*NvimReplace.enable()*
+NvimReplace.options	my-awesome-plugin.txt	/*NvimReplace.options*
+NvimReplace.setup()	my-awesome-plugin.txt	/*NvimReplace.setup()*
+NvimReplace.toggle()	my-awesome-plugin.txt	/*NvimReplace.toggle()*

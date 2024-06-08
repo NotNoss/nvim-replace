@@ -1,0 +1,45 @@
+==============================================================================
+------------------------------------------------------------------------------
+                                                          *NvimReplace.toggle()*
+                             `NvimReplace.toggle`()
+Toggle the plugin by calling the `enable`/`disable` methods respectively.
+
+------------------------------------------------------------------------------
+                                                          *NvimReplace.enable()*
+                             `NvimReplace.enable`()
+Initializes the plugin, sets event listeners and internal state.
+
+------------------------------------------------------------------------------
+                                                         *NvimReplace.disable()*
+                            `NvimReplace.disable`()
+Disables the plugin, clear highlight groups and autocmds, closes side buffers and resets the internal state.
+
+
+==============================================================================
+------------------------------------------------------------------------------
+                                                           *NvimReplace.options*
+                             `NvimReplace.options`
+Your plugin configuration with its default values.
+
+Default values:
+>
+  NvimReplace.options = {
+      -- Prints useful logs about what event are triggered, and reasons actions are executed.
+      debug = false,
+  }
+
+<
+
+------------------------------------------------------------------------------
+                                                           *NvimReplace.setup()*
+                         `NvimReplace.setup`({options})
+Define your nvim-replace setup.
+
+Parameters ~
+{options} `(table)` Module config table. See |NvimReplace.options|.
+
+Usage ~
+`require("nvim-replace").setup()` (add `{}` with your |NvimReplace.options| table)
+
+
+ vim:tw=78:ts=8:noet:ft=help:norl:
